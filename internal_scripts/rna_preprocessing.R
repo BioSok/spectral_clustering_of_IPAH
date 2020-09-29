@@ -5,7 +5,7 @@
 # sf: RNA-seq file name (no suffixes)
 # normalisation: numerical normalisation to be applied on the RNA-seq data
 
-# Example run: rna_preprocessing("mdc95_cts", "asinh")
+# Example run: rna_preprocessing("rnaseq_data", "asinh")
 
 rna_preprocessing <- function(sf, normalisation) {
     # Loading the RNA-seq dataset

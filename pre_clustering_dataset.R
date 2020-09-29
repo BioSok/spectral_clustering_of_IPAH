@@ -1,7 +1,7 @@
 source("internal_scripts/sample_exclusions.R")
 
 # Initial datasets
-rnaseq_file <- "mdc95_cts"
+rnaseq_file <- "rnaseq_data"
 clinical_file <- "clinical_data"
 
 # Parameters
