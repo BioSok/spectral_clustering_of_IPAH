@@ -1,12 +1,12 @@
-# Spectral Clustering of IPAH
+## Spectral Clustering of IPAH
 This repository contains scripts of the R code used to generate the results in our paper "Biological heterogeneity in idiopathic pulmonary arterial hypertension identified through unsupervised transcriptomic profiling of whole blood".
 
 
 Biological heterogeneity in idiopathic pulmonary arterial hypertension identified through unsupervised transcriptomic profiling of whole blood
 
-# System requirements
+## System requirements
 
-
+## How to run
 
 ##### Run pre_clustering_dataset.R
 Inputs:  
@@ -25,6 +25,6 @@ Inputs:
 Outputs:  
 - Subgroup memberships for patients : memberships_k5.RDS & memberships_k5.csv
 
-# Contact
+## Contact
 
 Please contact Sokratis Kariotis (Biosok) through Github for queries relating to this code.
