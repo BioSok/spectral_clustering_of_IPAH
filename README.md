@@ -19,7 +19,7 @@ Inputs:
 Outputs:  
 - Pre clustering ready file : pre_clustering_p_all_tpm.RDS
 
->Run-time for 300 genes and 359 patients: <= 1 min
+>Run-time for 300 genes and 359 patients: <= 30 seconds
 
 ##### Run p_clustering.R
 Inputs:  
