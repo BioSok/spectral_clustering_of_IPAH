@@ -19,7 +19,7 @@ Inputs:
 Outputs:  
 - Pre clustering ready file : pre_clustering_p_all_tpm.RDS
 
->Run-time for : 
+>Run-time for 300 genes and 359 patients: <= 1 min
 
 ##### Run p_clustering.R
 Inputs:  
@@ -29,8 +29,7 @@ Inputs:
 Outputs:  
 - Subgroup memberships for patients : memberships_k5.RDS & memberships_k5.csv
 
-
-Run-time for 300 genes and 359 patients: <= 1 min
+>Run-time for 300 genes and 359 patients: <= 1 min
 
 ## Contact
 Please contact Sokratis Kariotis (Biosok) through Github for queries relating to this code.
