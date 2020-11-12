@@ -21,7 +21,7 @@ Inputs:
 Outputs:  
 - Pre clustering ready file : `pre_clustering_p_all_tpm.RDS`
 
->Run-time for 300 genes and 359 patients: <= 10 seconds
+>Run-time for 300 genes and 359 patients: <= 5 seconds
 
 ##### Run p_clustering.R
 For thi step you can use the demo dataset `demo_pre_clustering_p_all_tpm.RDS` and gene list `demo_sorted_variant_genes.RDS`, provided in this repository.
@@ -35,7 +35,7 @@ Outputs:
 - Gene list sorted based on variance(descending order) : `sorted_variant_genes.RDS`
 - Subgroup memberships for patients : `memberships_k5.RDS` & `memberships_k5.csv`
 
->Run-time for 300 genes and 359 patients: <= 1 min
+>Run-time for 300 genes and 359 patients: <= 10 sec
 
 ## Contact
 Please contact Sokratis Kariotis (Biosok) through Github for queries relating to this code.
