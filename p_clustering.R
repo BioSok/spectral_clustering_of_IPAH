@@ -1,6 +1,6 @@
 # --------------- Required info --------------
 k <- 5 # number of subgroups
-top_genes <- 300
+top_genes <- 100
 reproduction_seed <- 71101
 
 # --------- Required scripts loading ---------
@@ -12,7 +12,7 @@ source("internal_scripts/sample_exclusions.R")
 source("internal_scripts/stable_geneset.R")
 
 # --------- Data loading ---------
-tpm <- readRDS("pre_clustering_p_all_tpm.RDS") # genes x samples
+tpm <- readRDS("demo_pre_clustering_p_all_tpm.RDS") # genes x samples
 tpm <- t(tpm) # samples x genes
 
 # --------- Selecting gene set ---------
