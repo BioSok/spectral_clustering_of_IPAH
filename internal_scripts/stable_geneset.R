@@ -8,7 +8,7 @@ stable_geneset <- function(tpm, top_number) {
     top_list <- head(sorted_var_genes$names, n = top_number)
     new_tpm <- tpm[,top_list]
     
-    saveRDS(sorted_var_genes, "../sorted_variant_genes.RDS")
+    saveRDS(sorted_var_genes, "../demo_sorted_variant_genes.RDS")
     
     return(new_tpm)
 }
