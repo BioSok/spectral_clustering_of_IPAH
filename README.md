@@ -28,9 +28,11 @@ For thi step you can use the demo dataset `demo_pre_clustering_p_all_tpm.RDS` an
 
 Inputs:  
 - Pre clustering ready file : `pre_clustering_p_all_tpm.RDS`
-- Gene list sorted based on variance(descending order) : `sorted_variant_genes.RDS`
+- Number of subgroups (k)
+- Number of most variant genes to be used: (top_genes)
 
-Outputs:  
+Outputs:
+- Gene list sorted based on variance(descending order) : `sorted_variant_genes.RDS`
 - Subgroup memberships for patients : `memberships_k5.RDS` & `memberships_k5.csv`
 
 >Run-time for 300 genes and 359 patients: <= 1 min
