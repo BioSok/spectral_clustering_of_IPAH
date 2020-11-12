@@ -12,22 +12,26 @@ This repository contains scripts of the R code used to generate the results in o
 ## How to run
 
 ##### Run pre_clustering_dataset.R
+This step includes the specific preprocessing for our paper "Biological heterogeneity in idiopathic pulmonary arterial hypertension identified through unsupervised transcriptomic profiling of whole blood".
+
 Inputs:  
-- RNA-sequencing file (genes x patients) : rnaseq_data
-- Clinical variable file (patients x variables) : clinical_data.xlsx
+- RNA-sequencing file (genes x patients) : `rnaseq_data.xlsx`
+- Clinical variable file (patients x variables) : `clinical_data.xlsx`
 
 Outputs:  
-- Pre clustering ready file : pre_clustering_p_all_tpm.RDS
+- Pre clustering ready file : `pre_clustering_p_all_tpm.RDS`
 
->Run-time for 300 genes and 359 patients: <= 30 seconds
+>Run-time for 300 genes and 359 patients: <= 10 seconds
 
 ##### Run p_clustering.R
+For thi step you can use the demo dataset `demo_pre_clustering_p_all_tpm.RDS` and gene list `demo_sorted_variant_genes.RDS`, provided in this repository.
+
 Inputs:  
-- Pre clustering ready file : pre_clustering_p_all_tpm.RDS
-- Gene list sorted based on variance(descending order) : sorted_variant_genes.RDS
+- Pre clustering ready file : `pre_clustering_p_all_tpm.RDS`
+- Gene list sorted based on variance(descending order) : `sorted_variant_genes.RDS`
 
 Outputs:  
-- Subgroup memberships for patients : memberships_k5.RDS & memberships_k5.csv
+- Subgroup memberships for patients : `memberships_k5.RDS` & `memberships_k5.csv`
 
 >Run-time for 300 genes and 359 patients: <= 1 min
 
