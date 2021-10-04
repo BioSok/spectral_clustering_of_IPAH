@@ -1,0 +1,11 @@
+,features,coefficients
+0,cbt_inflammation_crp_mgpl,1.0
+1,cbt_renal_creatinine_umolpl,0.8301610825356668
+2,age_diagnosis,0.40517164935095756
+3,bs_bmi,0.7603442257553849
+4,walk_distance_6_min,-0.2960177504966486
+5,cum.haz,-0.30171774626544784
+6,ec_right_atrial_area,0.28856574728978246
+7,hb_pvr_calc_v1,-0.36726383540392715
+8,cbt_renal_sodium_mmolpl,-0.25564021637240397
+9,hv_rap_m,-0.28279602913015567

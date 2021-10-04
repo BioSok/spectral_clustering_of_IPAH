@@ -1,0 +1,11 @@
+,features,coefficients
+0,hb_pvr_calc_v1,0.22219493323637324
+1,walk_distance_6_min,-0.15092983031262985
+2,cbt_haem_wbc_x10e9pl,0.5576411060786837
+3,cbt_inflammation_crp_mgpl,-0.7913003610086531
+4,lf_kco_pc,0.05435463125246599
+5,cbt_renal_urea_mmolpl,-0.9704554085557922
+6,cbt_haem_platelets_x10e9pl,-0.30353550479443014
+7,hv_pap_m,-0.4613212362521845
+8,ep_1_oxygen_saturation_pre,-1.0
+9,cbt_renal_creatinine_umolpl,0.48000630790512316
