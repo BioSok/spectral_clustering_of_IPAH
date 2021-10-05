@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/299615578.svg)](https://zenodo.org/badge/latestdoi/299615578)
+
 ## Spectral Clustering of IPAH
 This repository contains scripts of the R code used to generate the results in our paper "Biological heterogeneity in idiopathic pulmonary arterial hypertension identified through unsupervised transcriptomic profiling of whole blood".
 
